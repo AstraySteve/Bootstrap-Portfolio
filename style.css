@@ -49,6 +49,19 @@ section{
     color: #4aaaa5;
 }
 
+.imgText{
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 100%;
+    padding: 10px 0;
+    transform: translate(-50%);
+    font-size: 15px;
+    text-align: center;
+}
+
 /*IDs*/
 #bioImage{
     width: 200px;
@@ -64,17 +77,4 @@ section{
     font-weight: bold;
     padding: 30px;
     margin: 0;
-}
-
-.imgText{
-    position: absolute;
-    left: 50%;
-    bottom: 5%;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    width: 100%;
-    padding: 10px 0;
-    transform: translate(-50%);
-    font-size: 15px;
-    text-align: center;
 }
